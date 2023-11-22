@@ -17,6 +17,7 @@ class _HomePageState extends State<HomePage> {
     if(stopwatch.isRunning) {
       stopwatch.stop();
     }
+  
     else {
       stopwatch.start();
     }
